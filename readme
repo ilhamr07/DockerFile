@@ -1,0 +1,15 @@
+instruksi dockerfile
+
+1. membuat docker image
+ docker build --tag/-t (docker-gs-ping/nama_image_ingin_dibuat) .
+
+2. RUN menjalankan terminal
+
+3. LABEL membuat LABEL
+
+4. ADD
+docker build -t nginx-ku .
+docker run --rm -d --name nginx-ku --cpus="0.1" --memory="10m" -p 8080:80 nginx-ku
+docker exec -it nginx-ku /bin/sh
+cd /usr/share/nginx/html/
+ls
