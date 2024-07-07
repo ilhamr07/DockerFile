@@ -1,0 +1,12 @@
+git config --global user.name “[firstname lastname]”
+
+git config --global user.email “[valid-email]”
+
+git add [file]
+git reset [file]
+
+git commit -m “[descriptive message]”
+
+git push REMOTE-NAME BRANCH-NAME
+
+
