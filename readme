@@ -12,4 +12,22 @@ docker build -t nginx-ku .
 docker run --rm -d --name nginx-ku --cpus="0.1" --memory="10m" -p 8080:80 nginx-ku
 docker exec -it nginx-ku /bin/sh
 cd /usr/share/nginx/html/
-ls
+ls 
+
+5 COPY
+docker build -t nginx-ku .
+docker run --rm -d --name nginx-ku --cpus="0.1" --memory="10m" -p 8080:80 nginx-ku
+docker exec -it nginx-ku /bin/sh
+cd /usr/share/nginx/html/
+ls 
+
+6. Dockerignore File
+
+7. Docker Expose
+    untuk mengexpose port
+
+8. ENV
+     
+9. WORKING DIRECTORY
+    WORKDIR
+ 

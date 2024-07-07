@@ -3,11 +3,16 @@ FROM nginx:alpine
 
 RUN apk add vim curl 
 
-ADD Docker-File/about.html /usr/share/nginx/html
-ADD Docker-File/style.css /usr/share/nginx/html
+ADD about.html /usr/share/nginx/html
+COPY style.css /usr/share/nginx/html
+COPY *.txt  /usr/share/nginx/html
+
+RUN mkdir hello
+COPY temp/* hello
+
 
 LABEL "dibuat oleh"=pemudajomblo
-LABEL company=maubangkrut
+LABEL company=maubangkrut 
 
 
 
