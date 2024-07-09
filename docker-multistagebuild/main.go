@@ -28,4 +28,3 @@ func HelloServer(w http.ResponseWriter, r *http.Request) {
 	}
 	fmt.Println("DONE Write File : " + file)
 }
-#
