@@ -10,3 +10,9 @@ git commit -m “[descriptive message]”
 git push REMOTE-NAME BRANCH-NAME
 
 
+#check ada pada repo yang mana
+git remote -v
+
+#pindah repo
+git remote add origin https://github.com/octocat/Spoon-Knife.git
+
